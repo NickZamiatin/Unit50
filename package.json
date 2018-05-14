@@ -1,0 +1,16 @@
+{
+  "name": "expressNode",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Nikita Zamiatin <4406015@gmail.com>",
+  "license": "MIT",
+  "scripts":{
+    "dev": "nodemon index.js",
+    "start" :"node index.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "morgan": "^1.9.0"
+  }
+}
